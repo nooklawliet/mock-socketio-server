@@ -1,0 +1,38 @@
+{
+    "id": "1",
+    "href": "http://10.138.37.120:8081/tmf-api/productCatalogManagement/v4/catalog/ID-1-20230210-180015",
+    "catalogType": "DomesticPackageCatalog",
+    "description": "description",
+    "lastUpdate": "2023-02-15T06:52:59.628Z",
+    "lifecycleStatus": "-",
+    "name": "Main Pack",
+    "version": "-",
+    "category": [{
+        "id": "1",
+        "href": "http://10.138.37.120:8081/tmf-api/productCatalogManagement/v4/category/1",
+        "name": "5G Max Speed_1",
+        "version": "-",
+        "@baseType": "CategoryRef",
+        "@schemaLocation": "http://10.138.37.120:9081/management/api/TMF620-ProductCatalog-v4.1.0.swagger_TORO.json#/definitions/CategoryRef",
+        "@type": "CategoryRef",
+        "@referredType": "-"
+    }],
+    "relatedParty": [{
+        "id": "-",
+        "href": "-",
+        "name": "-",
+        "role": "-",
+        "@baseType": "-",
+        "@schemaLocation": "-",
+        "@type": "-",
+        "@referredType": "-"
+    }],
+    "validFor": {
+        "endDateTime": "2025-04-12T23:20:50+07:00",
+        "startDateTime": "2020-04-12T23:20:50+07:00"
+    },
+    "@baseType": "Catalog",
+    "@schemaLocation": "http://10.138.37.120:9081/management/api/TMF620-ProductCatalog-v4.1.0.swagger_TORO.json#/definitions/Catalog",
+    "@type": "Catalog"
+}
+

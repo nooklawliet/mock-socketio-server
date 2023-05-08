@@ -1,0 +1,43 @@
+// subpath onchange -> read file -> send data to topic 'poc_ws_realm' -> remove file
+
+handshake: {
+  headers: {
+    'user-agent': 'node-XMLHttpRequest',
+    accept: '*/*',
+    host: 'localhost:20002',
+    connection: 'close'
+  },
+  time: 'Mon Dec 19 2022 16:42:34 GMT+0700 (Indochina Time)',
+  address: '::1',
+  xdomain: false,
+  secure: false,
+  issued: 1671442954582,
+  url: '/socket.io/?EIO=4&transport=polling&t=OKfmtb2&b64=1',
+  query: [Object: null prototype] {
+    EIO: '4',
+    transport: 'polling',
+    t: 'OKfmtb2',
+    b64: '1'
+  },
+  auth: {}
+}
+
+connection headers: {
+  'user-agent': 'node-XMLHttpRequest',
+  accept: '*/*',
+  host: 'localhost:20002',
+  connection: 'close'
+}
+
+request headers: {
+  'user-agent': 'node-XMLHttpRequest',
+  accept: '*/*',
+  host: 'localhost:20002',
+  connection: 'close'
+}
+
+
+// io.engine.on('headers', (headers, request) => {
+//     console.log('engine headers:', headers);
+//     console.log('engine request:', request);
+// });

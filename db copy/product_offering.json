@@ -1,0 +1,327 @@
+[
+    {
+        "id": "1",
+        "href": "http://10.138.37.120:8081/tmf-api/productCatalogManagement/v4/productOffering/Product-$key",
+        "description": "5G Max Speed monthly fee 699B_Product-UUID-49999-20230210-180015. Call AIS network unlimited (limit 60 mins /call). All network 50 mins. Net 5G max speed total 50GB after that speed 384Kbps. Exceed Voice/VDO call 1.50B/min. SMS 2.5B. MMS 4B. 12 bill cycles. AIS SUPER WiFi.",
+        "isBundle": true,
+        "isSellable": true,
+        "lastUpdate": "2023-02-16T05:53:38.333Z",
+        "lifecycleStatus": "-",
+        "name": "Package 5G Max Speed 699 Baht_Product-UUID-49999-20230210-180015",
+        "statusReason": "-",
+        "version": "-",
+        "agreement": [{
+            "id": "1",
+            "href": "http://10.138.37.120:8081/tmf-api/agreementManagement/v4/agreement/2",
+            "name": "Pro rate Agreement",
+                "@baseType": "AgreementRef",
+                "@schemaLocation": "http://10.138.37.120:9081/management/api/TMF620-ProductCatalog-v4.1.0.swagger_TORO.json#/definitions/AgreementRef",
+                "@type": "AgreementRef",
+            "@referredType": "-"
+        }],
+        "attachment": [{
+            "id": "4aafacbd-11ff-4dc8-b445-305f2215715f",
+            "href": "http://host/Attachment/4aafacbd-11ff-4dc8-b445-305f2215715f",
+            "attachmentType": "video",
+            "content": "-",
+            "description": "Photograph of the Product",
+            "mimeType": "-",
+            "name": "-",
+            "url": "http://host/Content/4aafacbd-11ff-4dc8-b445-305f2215715f",
+            "size": {
+                "amount": 1,
+                "units": "-"
+            },
+            "validFor": {
+                "endDateTime": "1985-04-12T23:20:50.52Z",
+                "startDateTime": "1985-04-12T23:20:50.52Z"
+            },
+            "@baseType": "-",
+            "@schemaLocation": "-",
+            "@type": "-",
+            "@referredType": "-"
+        }],
+        "bundledProductOffering": [{
+            "id": "-",
+            "href": "-",
+            "lifecycleStatus": "-",
+            "name": "-",
+            "bundledProductOfferingOption": {
+                "numberRelOfferDefault": 0,
+                "numberRelOfferLowerLimit": 0,
+                "numberRelOfferUpperLimit": 0,
+                "@baseType": "-",
+                "@schemaLocation": "-",
+                "@type": "-"
+            },
+            "@baseType": "-",
+            "@schemaLocation": "-",
+            "@type": "-"
+        }],
+        "category": [{
+            "id": "1",
+            "href": "http://10.138.37.120:8081/tmf-api/productCatalogManagement/v4/category/$key1",
+            "name": "5G Max Speed",
+            "version": "-",
+            "@baseType": "CategoryRef",
+            "@schemaLocation": "http://10.138.37.120:9081/management/api/TMF620-ProductCatalog-v4.1.0.swagger_TORO.json#/definitions/CategoryRef",
+            "@type": "CategoryRef",
+            "@referredType": "-"
+        }],
+        "channel": [{
+            "id": "-",
+            "href": "-",
+            "name": "-",
+            "@baseType": "-",
+            "@schemaLocation": "-",
+            "@type": "-",
+            "@referredType": "-"
+        }],
+        "marketSegment": [{
+            "id": "-",
+            "href": "-",
+            "name": "-",
+            "@baseType": "-",
+            "@schemaLocation": "-",
+            "@type": "-",
+            "@referredType": "-"
+        }],
+        "place": [{
+            "id": "-",
+            "href": "-",
+            "name": "-",
+            "@baseType": "-",
+            "@schemaLocation": "-",
+            "@type": "-",
+            "@referredType": "-"
+        }],
+        "prodSpecCharValueUse": [{
+            "id": "-",
+            "description": "-",
+            "maxCardinality": 0,
+            "minCardinality": 0,
+            "name": "-",
+            "valueType": "-",
+            "productSpecCharacteristicValue": [{
+                "isDefault": true,
+                "rangeInterval": "-",
+                "regex": "-",
+                "unitOfMeasure": "-",
+                "valueFrom": 0,
+                "valueTo": 0,
+                "valueType": "-",
+                "validFor": {
+                    "endDateTime": "1985-04-12T23:20:50.52Z",
+                    "startDateTime": "1985-04-12T23:20:50.52Z"
+                },
+                "value": "-",
+                "TORO_productQuotaName": "-",
+                "@baseType": "-",
+                "@schemaLocation": "-",
+                "@type": "-"
+            }],
+            "productSpecification": {
+                "id": "-",
+                "href": "-",
+                "name": "-",
+                "version": "-",
+                "targetProductSchema": {
+                    "@schemaLocation": "-",
+                    "@type": "-"
+                },
+                "@baseType": "-",
+                "@schemaLocation": "-",
+                "@type": "-",
+                "@referredType": "-"
+            },
+            "validFor": {
+                "endDateTime": "1985-04-12T23:20:50.52Z",
+                "startDateTime": "1985-04-12T23:20:50.52Z"
+            },
+            "@baseType": "-",
+            "@schemaLocation": "-",
+            "@type": "-"
+        }],
+        "productOfferingPrice": [{
+            "id": "-",
+            "href": "-",
+            "description": "-",
+            "lastUpdate": "2023-02-16T05:53:38.333Z",
+            "lifecycleStatus": "-",
+            "name": "-",
+            "priceType": "-",
+            "recurringChargePeriod": "-",
+            "recurringChargePeriodLength": 0,
+            "version": "-",
+            "constraint": [{
+                "id": "-",
+                "href": "-",
+                "name": "-",
+                "version": "-",
+                "@baseType": "-",
+                "@schemaLocation": "-",
+                "@type": "-",
+                "@referredType": "-"
+            }],
+            "price": {
+                "percentage": 0,
+                "taxCategory": "-",
+                "taxRate": 0,
+                "dutyFreeAmount": {
+                    "unit": "-",
+                    "value": 0
+                },
+                "taxIncludedAmount": {
+                    "unit": "-",
+                    "value": 0
+                },
+                "@baseType": "-",
+                "@schemaLocation": "-",
+                "@type": "-"
+            },
+            "priceAlteration": [{
+                "id": "-",
+                "href": "-",
+                "description": "-",
+                "name": "-",
+                "priceType": "-",
+                "priority": 0,
+                "recurringChargePeriod": "-",
+                "applicationDuration": {
+                    "amount": 0,
+                    "units": "-"
+                },
+                "price": {
+                    "percentage": 0,
+                    "taxCategory": "-",
+                    "taxRate": 0,
+                    "dutyFreeAmount": {
+                        "unit": "-",
+                        "value": 0
+                    },
+                    "taxIncludedAmount": {
+                        "unit": "-",
+                        "value": 0
+                    },
+                    "@baseType": "-",
+                    "@schemaLocation": "-",
+                    "@type": "-"
+                },
+                "unitOfMeasure": {
+                    "amount": 1,
+                    "units": "-"
+                },
+                "validFor": {
+                    "endDateTime": "1985-04-12T23:20:50.52Z",
+                    "startDateTime": "1985-04-12T23:20:50.52Z"
+                },
+                "@baseType": "-",
+                "@schemaLocation": "-",
+                "@type": "-"
+            }],
+            "unitOfMeasure": {
+                "amount": 1,
+                "units": "-"
+            },
+            "validFor": {
+                "endDateTime": "1985-04-12T23:20:50.52Z",
+                "startDateTime": "1985-04-12T23:20:50.52Z"
+            },
+            "@baseType": "-",
+            "@schemaLocation": "-",
+            "@type": "-",
+            "@referredType": "-"
+        }],
+        "productOfferingRelationship": [{
+            "id": "-",
+            "href": "-",
+            "name": "-",
+            "relationshipType": "-",
+            "role": "-",
+            "validFor": {
+                "endDateTime": "1985-04-12T23:20:50.52Z",
+                "startDateTime": "1985-04-12T23:20:50.52Z"
+            },
+            "@baseType": "-",
+            "@schemaLocation": "-",
+            "@type": "-",
+            "@referredType": "-"
+        }],
+        "productOfferingTerm": [{
+            "description": "-",
+            "name": "-",
+            "duration": {
+                "amount": 0,
+                "units": "-"
+            },
+            "validFor": {
+                "endDateTime": "1985-04-12T23:20:50.52Z",
+                "startDateTime": "1985-04-12T23:20:50.52Z"
+            },
+            "@baseType": "-",
+            "@schemaLocation": "-",
+            "@type": "-"
+        }],
+        "productSpecification": {
+            "id": "-",
+            "href": "-",
+            "name": "-",
+            "version": "-",
+            "targetProductSchema": {
+                "@schemaLocation": "-",
+                "@type": "-"
+            },
+            "@baseType": "-",
+            "@schemaLocation": "-",
+            "@type": "-",
+            "@referredType": "-"
+        },
+        "resourceCandidate": {
+            "id": "-",
+            "href": "-",
+            "name": "-",
+            "version": "-",
+            "@baseType": "-",
+            "@schemaLocation": "-",
+            "@type": "-",
+            "@referredType": "-"
+        },
+        "serviceCandidate": {
+            "id": "-",
+            "href": "-",
+            "name": "-",
+            "version": "-",
+            "@baseType": "-",
+            "@schemaLocation": "-",
+            "@type": "-",
+            "@referredType": "-"
+        },
+        "serviceLevelAgreement": {
+            "id": "-",
+            "href": "-",
+            "name": "-",
+            "@baseType": "-",
+            "@schemaLocation": "-",
+            "@type": "-",
+            "@referredType": "-"
+        },
+        "validFor": {
+            "endDateTime": "1985-04-12T23:20:50.52Z",
+            "startDateTime": "1985-04-12T23:20:50.52Z"
+        },
+        "TORO_productType": "-",
+        "TORO_productCode": "-",
+        "TORO_packageEffectiveOptions": [{
+            "id": "-",
+            "option": "-",
+            "topic": "-",
+            "desc": "-",
+            "@baseType": "-",
+            "@schemaLocation": "-",
+            "@type": "-"
+        }],
+        "@baseType": "-",
+        "@schemaLocation": "-",
+        "@type": "-"
+    }
+]

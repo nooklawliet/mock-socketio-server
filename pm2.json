@@ -1,0 +1,14 @@
+{
+    "apps": [{
+        "exec_mode": "fork",
+        "instances": 1,
+        "script": "server.js",
+        "name": "SocketIO",
+        "watch": ["server"],
+        "watch_delay": 1000,
+        "interpreter": "node",
+        "error_file": "/dev/null",
+        "out_file": "/dev/null",
+        "env": {}
+    }]
+}

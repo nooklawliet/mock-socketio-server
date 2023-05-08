@@ -1,0 +1,84 @@
+//ขา oda emit ไป mobilbe
+{
+    "protocol": {
+        "version": "1", //fix เป็น 1 ไปก่อน
+        "command": "message|service", //message คือ command ทั่วไป, service คือ 
+        "subCommand": "init1",
+        "invoke": "xxxxx", //ให้ใช้ invokeId ที่ core มีอยู่ ใช้ระหว่าง ODA กับ mobilebe
+        "qos": "normal|high|low", //priority ให้ module เป็นคนเลือกเองได้ อนาคตอาจจะทำเป็น config ราย command ที่ MDM
+        "topic": "", //ชื่อ event
+        "token": "", //token ที่ได้จากการ authen
+        "service": "", //fix ค่าเป็น coreNetwork
+        "diagMessage": "" 
+    },
+    "header": {
+        "version": "1.0", //fix เป็น 1 ไปก่อน
+        "timestamp": "xxxx", //timestamp จาก oda
+        "orgService": "xxxx",  //ชื่อ module ที่เรียกเข้ามา
+        "tid": "", //ใช้tid ที่มีใน core
+        "lastTid": "xxxx", //ใช้tid ที่มีใน core
+        "session": "xxxx", //ค่า session id ให้ใช้ invokeId ที่ core มีอยู่
+        "transaction": "xxxx", //ค่า session id ให้ใช้ invokeId ที่ core มีอยู่
+        "communication": "unicast|multicast|broadcast", //fix ค่าเป็น unicast
+        "groupTags": [], //fix [] ไปก่อน
+        "identity": {
+            "device": "xxxxx",
+            "public": "xxxxx",
+            "user": "xxxxx"
+        },
+        "tmfSpec": "none|TMFxxx", // tmf เลขไหน
+        "baseApiVersion": "none|4.0.0|4.1.0|5.0.0", //version ของ tmf
+        "schemaVersion": "1.0.0" //version ของ realm schema
+    },
+    "body": {}
+}
+
+Example of Ack
+{
+    "protocol": {
+        "version": "1",
+        "command": "ack",
+        "invoke": "xxxxx",
+        "qos": "normal|high|low",
+        "topic": "",
+        "token": "",
+        "service": "MBE01",
+        "diagMessage": "Token is not valid|OK|Error",
+    },
+}
+
+
+//ขา mobilbe กลับไป ODA
+{
+    "protocol": {
+        "version": "1", //
+        "command": "message|service|ack",
+        "subCommand": "init1",
+        "invoke": "xxxxx", //invokeId
+        "qos": "normal|high|low", //priority ให้ module เป็นคนเลือกเองได้ อนาคตอาจจะทำเป็น config ราย command ที่ MDM
+        "topic": "", //ชื่อ event
+        "token": "", //token ที่ได้จากการ authen
+        "service": "", //oda
+        "diagMessage": "Token is not valid|OK|Error",
+    },
+    "header": {
+        "version": "1.0", //
+        "timestamp": "xxxx", //timestamp server ที่ response กลับมา
+        "orgService": "xxxx",  //ชื่อ module ที่เรียกเข้ามา
+        "tid": "xxxx", //tid ณ ข้อมูลชุดนั้นๆ
+        "lastTid": "xxxx", // ไว้เช็คกับ tid ว่า data ที่ได้มา ได้ครบหมดหรือยัง
+        "session": "xxxx",
+        "transaction": "xxxx",
+        "communication": "unicast|multicast|broadcast",
+        "groupTags": [],
+        "identity": {
+            "device": "xxxxx",
+            "public": "xxxxx",
+            "user": "xxxxx"
+        },
+        "tmfSpec": "none|TMFxxx", // tmf เลขไหน
+        "baseApiVersion": "none|4.0.0|4.1.0|5.0.0", //version ของ tmf
+        "schemaVersion": "1.0.0"
+    },
+    "body": {}
+}

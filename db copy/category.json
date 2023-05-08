@@ -1,0 +1,39 @@
+[
+    {
+        "id": "1",
+        "href": "http://10.138.37.120:8081/tmf-api/productCatalogManagement/v4/category/1",
+        "description": "-",
+        "isRoot": true,
+        "lastUpdate": "2023-02-16T05:46:40.733Z",
+        "lifecycleStatus": "string",
+        "name": "5G Max Speed",
+        "parentId": "parentID-ID-1-20230210-180015",
+        "version": "-",
+        "productOffering": [{
+            "id": "1",
+            "href": "http://10.138.37.120:8081/tmf-api/productCatalogManagement/v4/productOffering/1",
+            "name": "Package 5G Max Speed 699 Baht_Product-UUID-49999-20230210-180015",
+            "@baseType": "-",
+            "@ProductOfferingRef": "-",
+            "@type": "ProductOfferingRef",
+            "@referredType": "-"
+        }],
+        "subCategory": [{
+            "id": "-",
+            "href": "-",
+            "name": "-",
+            "version": "-",
+            "@baseType": "-",
+            "@schemaLocation": "-",
+            "@type": "string",
+            "@referredType": "-"
+        }],
+        "validFor": {
+            "endDateTime": "1985-04-12T23:20:50.52Z",
+            "startDateTime": "1985-04-12T23:20:50.52Z"
+        },
+        "@baseType": "Category",
+        "@schemaLocation": "http://10.138.37.120:9081/management/api/TMF620-ProductCatalog-v4.1.0.swagger_TORO.json#/definitions/Category",
+        "@type": "Category"
+    }
+]
